@@ -2,10 +2,25 @@
 <head>
 	<meta http-equiv="Content-Type" content="charset=UTF-8">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="core.css">
 	<script type="text/javascript" src="main.js"></script>
 	<title>TT</title>
 </head>
 <body>
 	<div id="result"></div>
+	<ul class="tab">
+		<li class="tab_Item"><a href="#" connect="content1" onclick="add_tab_show()">レスト地名入力</a></li>
+		<li class="tab_Item"><a href="#" connect="content2" onclick="add_tab_show()">距離入力</a></li>
+		<li class="tab_Item"><a href="#" connect="content3" onclick="add_tab_show()">班名入力</a></li>
+		<li class="tab_Item"><a href="#" connect="content4" onclick="add_tab_show()">その他諸設定入力</a></li>
+	</ul>
+	<div id="content1" class="content">
+		枠内にレスト地名を入力してください。(1行に1レスト地名)<br>
+		※1行ずつ入力したい方は<a href="#" onclick="chenge_text_area();">こちら</a><br>
+		<textarea id="rest_name" rows="30" cols="20"></textarea>
+	</div>
+	<div id="content2" class="content notShow">コンテンツ2</div>
+	<div id="content3" class="content notShow">コンテンツ3</div>
+	<div id="content4" class="content notShow">コンテンツ4</div>
 </body>
 </html>
