@@ -1,0 +1,23 @@
+ul.tab {
+  list-style-type:none;
+  padding-left:0px;
+  margin-bottom:0px;
+  height:30px;
+}
+li.tab_Item a{
+  display:block;
+  float:left;
+  /*background-color:#000033;*/
+  height:25px;
+  width:200px;
+  margin-right:5px;
+  padding-top:5px;
+  text-align:center;
+  font-weight:bold;
+  line-height:25px;
+  margin-bottom:0px;
+  text-decoration:none;
+}
+.notShow {
+  display:none;
+}
